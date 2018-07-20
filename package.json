@@ -1,0 +1,25 @@
+{
+  "name": "macetaTestApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "maceta s",
+    "createData": "node odata/createData.js"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.0.19",
+    "mongodb": "^3.0.10",
+    "odata-v4-mongodb": "^0.1.12",
+    "odata-v4-server": "^0.2.12",
+    "odata-v4-service-metadata": "^0.1.6",
+    "opn": "^5.3.0",
+    "random-hammertime": "^1.0.0",
+    "random-words": "^1.1.0",
+    "randomstring": "^1.1.5",
+    "sillyname": "^0.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
