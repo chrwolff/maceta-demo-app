@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "maceta s",
-    "createData": "node odata/createData.js"
+    "seed": "node odata/createData.js"
   },
   "devDependencies": {
     "@types/mongodb": "^3.0.19",
