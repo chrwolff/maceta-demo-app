@@ -30,13 +30,6 @@ export class PostsController extends ODataController {
         .project(mongodbQuery.projection)
         .count(false);
     }
-    result.unshift({
-      _id: "newPost",
-      userName: "",
-      text: "",
-      time: Date.now(),
-      isTemplate: true
-    })
     return result;
   }
 
@@ -44,6 +37,7 @@ export class PostsController extends ODataController {
   async insert(@odata.body data: any): Promise<Post> {
     const db = await connect();
     data.time = Date.now();
+    data._id = new ObjectID();
     return await db
       .collection("Posts")
       .insertOne(data)

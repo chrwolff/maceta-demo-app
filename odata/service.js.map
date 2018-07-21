@@ -1,0 +1,1 @@
+{"version":3,"file":"service.js","sourceRoot":"","sources":["../odata-src/service.ts"],"names":[],"mappings":";;;;;;;;AAAA,uDAAoD;AACpD,qDAAqD;AAIrD,IAAM,WAAW,GAAjB,iBAAkB,SAAQ,6BAAW;CAAG,CAAA;AAAlC,WAAW;IAFhB,uBAAK,CAAC,SAAS,CAAC,aAAa,CAAC;IAC9B,uBAAK,CAAC,UAAU,CAAC,iCAAe,EAAE,IAAI,CAAC;GAClC,WAAW,CAAuB;AAE3B,QAAA,MAAM,GAAG,CAAC,WAAW,CAAC,CAAC;AAEpC,oDAAoD;AACpD,oCAAoC"}

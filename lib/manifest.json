@@ -1,0 +1,31 @@
+{
+  "sap.app": {
+    "id": "maceta.lib",
+    "type": "library",
+    "title": "Maceta Demo Library",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "offline": false
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+
+  "sap.ui5": {
+    "_version": "1.1.0",
+    "resources": {},
+    "dependencies": {
+      "minUI5Version": "1.38.0"
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    }
+  }
+}

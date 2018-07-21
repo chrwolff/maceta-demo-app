@@ -1,5 +1,3 @@
 node_modules
-odata/*
-!odata/.gitkeep
 variables.env
 .vscode
