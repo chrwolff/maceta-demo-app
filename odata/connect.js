@@ -12,7 +12,7 @@ const mongodb_1 = require("mongodb");
 require("dotenv").config({ path: __dirname + "/../variables.env" });
 function default_1() {
     return __awaiter(this, void 0, void 0, function* () {
-        const client = yield mongodb_1.MongoClient.connect(process.env.MONGODBURL);
+        const client = yield mongodb_1.MongoClient.connect(process.env.MONGODBURL, { useNewUrlParser: true });
         return client.db("maceta");
     });
 }

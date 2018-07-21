@@ -1,7 +1,7 @@
 import { PostsController } from "./PostsController";
 import { ODataServer, odata } from "odata-v4-server";
 
-@odata.namespace("my.data")
+@odata.namespace("maceta.data")
 @odata.controller(PostsController, true)
 class PostsServer extends ODataServer {}
 

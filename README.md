@@ -12,8 +12,8 @@ See [maceta](https://www.npmjs.com/package/maceta) for the CLI.
 
 The output should be similar to
 
-<img src=docs/console.png alt="Console Output" width="80%">
+<img src=docs/console.png alt="Console Output">
 
 The standard web browser should open, showing
 
-<img src=docs/browser.png alt="Demo App" width="80%">
+<img src=docs/browser.png alt="Demo App">

@@ -46,13 +46,6 @@ let PostsController = class PostsController extends odata_v4_server_1.ODataContr
                     .project(mongodbQuery.projection)
                     .count(false);
             }
-            result.unshift({
-                _id: "newPost",
-                userName: "",
-                text: "",
-                time: Date.now(),
-                isTemplate: true
-            });
             return result;
         });
     }
@@ -60,6 +53,7 @@ let PostsController = class PostsController extends odata_v4_server_1.ODataContr
         return __awaiter(this, void 0, void 0, function* () {
             const db = yield connect_1.default();
             data.time = Date.now();
+            data._id = new mongodb_1.ObjectID();
             return yield db
                 .collection("Posts")
                 .insertOne(data)

@@ -4,5 +4,4 @@ export default class Post {
     userName: any;
     text: any;
     time: any;
-    isTemplate: any;
 }

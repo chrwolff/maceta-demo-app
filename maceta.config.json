@@ -1,7 +1,10 @@
 {
   "shell": {
     "default": {
-      "languages": ["en", "de"]
+      "languages": ["en", "de"],
+      "resourceMap": {
+        "maceta.lib": "./lib"
+      }
     }
   }
 }

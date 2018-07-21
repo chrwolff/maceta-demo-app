@@ -2,7 +2,7 @@
   "_version": "1.1.0",
   "sap.app": {
     "_version": "1.1.0",
-    "id": "test",
+    "id": "maceta.demo",
     "type": "application",
     "i18n": "resources/i18n/texts.properties",
     "title": "{{appTitle}}",
@@ -29,7 +29,8 @@
       "minUI5Version": "1.44",
       "libs": {
         "sap.m": {},
-        "sap.suite.ui.commons": {}
+        "sap.suite.ui.commons": {},
+        "maceta.lib": {}
       }
     },
     "models": {
@@ -39,7 +40,7 @@
       },
       "data": {
         "type": "sap.ui.model.odata.v4.ODataModel",
-        "uri": "/sap/opu/odata/my/data/",
+        "uri": "/sap/opu/odata/maceta/data/",
         "settings": {
           "groupId": "$direct",
           "synchronizationMode": "None"

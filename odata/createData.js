@@ -27,12 +27,11 @@ function create() {
 }
 function getRandomDocs() {
     let docs = [];
-    for (let i = 0; i < 100; ++i) {
+    for (let i = 0; i < 5; ++i) {
         docs.push({
             userName: generateName(),
             text: randomWords({ min: 10, max: 100, join: " " }),
-            time: randomTimestamp(),
-            isTemplate: false
+            time: randomTimestamp()
         });
     }
     return docs;

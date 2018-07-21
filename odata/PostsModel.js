@@ -24,8 +24,5 @@ __decorate([
 __decorate([
     odata_v4_server_1.Edm.Int16
 ], Post.prototype, "time", void 0);
-__decorate([
-    odata_v4_server_1.Edm.Boolean
-], Post.prototype, "isTemplate", void 0);
 exports.default = Post;
 //# sourceMappingURL=PostsModel.js.map
